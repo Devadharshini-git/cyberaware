@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ title }} | CyberShield</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <header>
+    <div class="navbar">
+      <div class="logo">🛡️ CyberShield</div>
+      <nav>
+        <a href="/">Home</a>
+        <a href="/tips">Safety Tips</a>
+        <a href="/quiz">Quiz</a>
+        <a href="/contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    {% block content %}{% endblock %}
+  </main>
+
+  <footer>
+    <p>© 2025 CyberShield | Stay Safe Online</p>
+  </footer>
+</body>
+</html>
